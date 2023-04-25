@@ -1,0 +1,26 @@
+.heading {
+  font-weight: 900;
+  text-align: center;
+  padding: 1rem;
+}
+
+.heading1 {
+  background-color: #e59525;
+  color: black;
+  font-size: 2rem;
+}
+
+.heading2 {
+  color: #e59525;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 800px) {
+  .heading1 {
+    font-size: 3rem;
+  }
+
+  .heading2 {
+    font-size: 1.5rem;
+  }
+}

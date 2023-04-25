@@ -1,0 +1,25 @@
+.user-header {
+  padding: 0.5rem 2rem;
+  display: flex;
+  background-color: #e59525;
+  color: black;
+  font-weight: 900;
+}
+
+.user-field {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .user-field {
+    flex-basis: 33%;
+  }
+}
+
+@media (min-width: 800px) {
+  .user-field {
+    flex-basis: 20%;
+  }
+}

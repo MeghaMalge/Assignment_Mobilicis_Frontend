@@ -1,0 +1,22 @@
+.city-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.city-name {
+  font-size: 2rem;
+  color: #e59525;
+}
+
+.city-users {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 600px) {
+  .city-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

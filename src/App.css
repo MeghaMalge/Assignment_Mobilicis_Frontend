@@ -1,0 +1,42 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid #e59525;
+  border-radius: 1rem;
+  background-color: #e59525;
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.btn-text {
+  border: 0;
+  background-color: inherit;
+  color: #ddd;
+  text-align: start;
+}
+
+.btn-text:hover {
+  color: #e59525;
+}
+
+.btn-icon {
+  border: 0;
+  border-radius: 50%;
+  background-color: black;
+  padding: 0.5rem;
+  color: #e59525;
+}
+
+.btn-icon:hover {
+  background-color: #e59525;
+  color: black;
+}
+
+.icon {
+  width: 3rem;
+  height: 2rem;
+}
