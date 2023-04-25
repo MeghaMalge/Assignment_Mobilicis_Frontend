@@ -6,17 +6,25 @@
 }
 
 .city-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #e59525;
 }
 
 .city-users {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 600px) {
   .city-item {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .city-name {
+    font-size: 2rem;
+  }
+
+  .city-users {
+    font-size: 1.5rem;
   }
 }
